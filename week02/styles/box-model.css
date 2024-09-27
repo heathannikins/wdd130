@@ -2,7 +2,7 @@
     max-width: 100%;
     margin: 3px;
     border: 1px;
-    background-color: royalblue;
+    background-color: rgb(63, 101, 214);
     text-decoration-color: white;
     -moz-text-decoration-color: white;
 }
@@ -22,7 +22,7 @@ blockquote {
 }
 
 cite {
-	display: block;
+	display: inline-block;
     border-top: 5px;
     padding-top: 5px;
     text-align: left;
