@@ -32,11 +32,11 @@ aside {
     color: white;
 }
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 footer {
     margin-top: 25px;
-    border-top: 2px dashed rgb(70, 130, 180);
+    border-top: 2px dashed steelblue;
     text-align: center;
 }
