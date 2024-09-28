@@ -21,7 +21,7 @@ p {
     padding: 0;
 }
 main {
-    width: 50rem;
+    max-width: 50rem;
 }
 aside {
     width: 15rem;
@@ -31,7 +31,7 @@ aside {
     background-color: gray;
     color: white;
 }
-aside image {
+aside img {
     width: 200px;
     height: auto;
 }
