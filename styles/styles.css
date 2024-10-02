@@ -2,7 +2,7 @@
     --accent-color: steelblue;
     --white-color: white;
     --gray-color: gray;
-    --border-size: 5px;
+    --border-size: 2px;
     --padding-size: 1rem;
 }
 
@@ -14,8 +14,9 @@
 
 nav {
     background-color: var(--accent-color);
-    padding: var(--padding-size);
+    width: 20%;
 }
+
 nav a {
     color: var(--white-color);
     display: block;
@@ -25,7 +26,7 @@ h1 {
     color: var(--accent-color);
 }
 main img {
-    width: 10rem;
+    width: 12rem;
     height: auto;
     border: 1px solid var(--accent-color);
     padding: var(--padding-size);
@@ -33,10 +34,10 @@ main img {
     float: right;
 }
 p {
-    padding: 0;
+    padding: var(--padding-size);
 }
 main {
-    max-width: 20rem;
+    max-width: 25rem;
 }
 aside {
     width: 15rem;
