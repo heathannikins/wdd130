@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 :root {
     --accent-color: steelblue;
     --white-color: white;
@@ -66,4 +68,10 @@ aside h2 {
     padding: var(--padding-size);
     background-color: rgb(163, 170, 177);
     color: rgb(25, 25, 110);
+}
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
 }
