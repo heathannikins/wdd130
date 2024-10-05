@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Trocchi&display=swap');
+
+:root {
+    --primary-color: #47B3A7;
+    --secondary-color: #243E3D;
+    --accent1-color: #F7CA39;
+    --accent2-color: #91A03A;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    width: 75%;
+}
+
+nav a {
+    color: white;
+    padding-top: 60px;
+    padding-inline: 15px;
+    float: inline-end;
+}
+nav img {
+    width: 10%;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+main {
+    max-width: 75%;
+}
+/* Class Selectors */
+.hero img {
+    display: block;
+    width: 100%;
+    height: Auto;
+    padding-top: 10px;
+    position: relative;
+}
+body {
+    font-family: Trocchi, Arial, sans-serif;
+}
+h1 {
+    display: block;
+    width: 650px;
+    background-color: rgba(0,0,0,0.5);
+    font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: var(--primary-color);
+    position: absolute;
+    Bottom: 575px;
+    left: 350px;
+}
+
+article {
+    position: absolute;
+    display: block;
+    background-color: rgba(255,255,255,0.5);
+    bottom: 425px;
+    left: 275px;
+    color: var(--secondary-color);
+    width: 850px;
+    text-align: center;
+}
+
+article img {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+h2 {
+    font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
+    font-size: 20px;
+    color: var(--accent2-color);
+}
+
+.raftingimages img {
+    width: 15%;
+}
+footer {
+    display: block;
+    float: left;
+    width: 450px;
+}
+footer img {
+    width: 20px;
+}
+.links {
+    text-decoration: none;
+    font-size: 2px;
+    color: black;
+}
