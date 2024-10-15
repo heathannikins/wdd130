@@ -99,10 +99,10 @@ article img {
 
 .grid-history h2 {
     font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     align-items: center;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     grid-column: 1/4;
     grid-row: 1/2;
 }
@@ -144,9 +144,10 @@ article img {
 
 .raftingimages h2 {
     font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    color: var(--accent2-color);
+    background-color: lightgray;
+    color: var(--secondary-color);
     grid-column: 1/6;
     grid-row: 1/2;
 }
