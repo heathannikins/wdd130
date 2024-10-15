@@ -140,7 +140,6 @@ article img {
 .raftingimages figure {
     display: flex;
     flex-direction: column;
-    max-width: 300;
 }
 
 .raftingimages h2 {
