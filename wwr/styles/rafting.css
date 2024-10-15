@@ -7,30 +7,50 @@
     --accent2-color: #91A03A;
 }
 
-nav {
-    background-color: var(--secondary-color);
-    width: 75%;
+.grid {
+    display: grid;
+    align-content: center;
 }
 
-nav a {
-    color: white;
-    padding-top: 60px;
-    padding-inline: 15px;
-    float: inline-end;
+nav {
+    background-color: var(--secondary-color);
 }
-nav img {
-    width: 10%;
-    padding: 10px;
-    padding-left: 50px;
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox1 a { /* This is the links at the top of the page */
+    flex: 1 1 auto;
+    color: white;
+    padding-inline: 0;
+    margin-right: 100px;
+    align-content: space-around;
+    grid-column: 2/3;
+    text-decoration: none;
+}
+
+.flexbox1 a:hover {
+    color: black;
+}
+.flexbox1 img {
+    display: flex;
+    width: 150px;
+    padding: 15px;
+    padding-left: 200px;
+    padding-right: 160px;
+    grid-column: 1/2;
 }
 
 main {
-    max-width: 75%;
+    max-width: 100%;
 }
+
 /* Class Selectors */
 .hero img {
-    display: block;
     width: 100%;
+    grid-area: auto;
     height: Auto;
     padding-top: 10px;
     position: relative;
@@ -38,8 +58,8 @@ main {
 body {
     font-family: Trocchi, Arial, sans-serif;
 }
+
 h1 {
-    display: block;
     width: 650px;
     background-color: rgba(0,0,0,0.5);
     font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
@@ -47,7 +67,7 @@ h1 {
     text-align: center;
     color: var(--primary-color);
     position: absolute;
-    Bottom: 575px;
+    Bottom: 565px;
     left: 350px;
 }
 
@@ -68,25 +88,108 @@ article img {
     float: right;
 }
 
-h2 {
+.grid-history {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 220px;
+    display: grid;
+    margin: 2px;
+    grid-gap: 5px;
+    border-top: 10px solid var(--accent1-color);
+}
+
+.grid-history h2 {
     font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
     color: var(--accent2-color);
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.grid-history img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: -1;
+    max-width: 200px;
+    justify-items: stretch;
+    margin: auto;
+}
+
+.text-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-content: center;
+    align-content: center;
+}
+
+.raftingimages {
+    display: grid;
+    border-top: 10px solid var(--accent1-color);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 3px;
+}
+
+.raftingimages figure {
+    display: flex;
+    flex-direction: column;
+    max-width: 300;
+}
+
+.raftingimages h2 {
+    font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: var(--accent2-color);
+    grid-column: 1/6;
+    grid-row: 1/2;
 }
 
 .raftingimages img {
-    width: 15%;
+    width: 205px;
+    height: 150px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    place-content: center;
+    margin: auto;
 }
-footer {
-    display: block;
-    float: left;
-    width: 450px;
+
+.raftingimages figcaption {
+    text-align: center;
 }
-footer img {
-    width: 20px;
-}
+
 .links {
+    display: grid;
+    grid-template-columns: 20fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+    border-top: 10px solid var(--accent1-color);
+}
+
+.links p {
+    font-size: 15px;
+    grid-column: 1/2;
+    justify-content: center;
+    text-align: center;
+}
+
+.links a {
+    align-self: center;
+}
+
+.links img {
+    width: 20px;
+
+}
+.links a {
     text-decoration: none;
     font-size: 2px;
-    color: black;
 }
