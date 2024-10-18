@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Federo, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.federo-regular {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header {
+    width: 600px;
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+
+}
+
+form {
+    width: 500px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: lightgrey;
+    display: grid;
+    grid-gap: 0px;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    justify-content: center;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 15px;
+    text-align: left;
+}
+.fieldset_contact {
+    align-items: right;
+    width: 450px;
+    display: grid;
+    gap: 1px;
+    margin-bottom: 20px;
+}
+.fieldset_contact label {
+    grid-column: 1/2;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+ .fieldset_contact input {
+    grid-column: 2/3;
+    padding-right: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+ }
+
+ .fieldset_contact legend {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.fieldset_questions {
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.fieldset_questions legend {
+    display: grid;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.fieldset_questions label {
+    grid-column: 1/2;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+
+.fieldset.questions input {
+    justify-content: right;
+    padding-right: 10px;
+    margin-right: 10px;
+ }
+
+.textarea_lived {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fieldset_submit {
+    text-decoration: none;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fieldset_submit input {
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+button:hover {
+    background-color: green;
+}
+
+footer {
+    text-align: center;
+    width: 500px;
+}
