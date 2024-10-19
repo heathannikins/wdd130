@@ -4,7 +4,8 @@
     --primary-color: #47B3A7;
     --secondary-color: #243E3D;
     --accent1-color: #F7CA39;
-    --accent2-color: #91A03A;
+    --accent2-color: #D18038;
+    --accent3-color: #AF916E;
 }
 
 .grid {
@@ -14,6 +15,7 @@
 
 nav {
     background-color: var(--secondary-color);
+    margin-bottom: 10px;
 }
 
 .flexbox1 {
@@ -45,6 +47,7 @@ nav {
 
 main {
     max-width: 100%;
+    border-top: 10px solid var(--accent1-color);
 }
 
 /* Class Selectors */
@@ -67,15 +70,15 @@ h1 {
     text-align: center;
     color: var(--primary-color);
     position: absolute;
-    Bottom: 565px;
-    left: 350px;
+    Bottom: 500px;
+    left: 375px;
 }
 
 article {
     position: absolute;
     display: block;
     background-color: rgba(255,255,255,0.5);
-    bottom: 425px;
+    bottom: 375px;
     left: 275px;
     color: var(--secondary-color);
     width: 850px;
@@ -146,6 +149,7 @@ article img {
     font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
     font-size: 40px;
     text-align: center;
+    justify-content: center;
     background-color: lightgray;
     color: var(--secondary-color);
     grid-column: 1/6;
@@ -193,23 +197,7 @@ article img {
     text-decoration: none;
     font-size: 2px;
 }
-.employees {
-    width: 400px;
-    display: grid;
-    border-top: 10px solid var(--accent1-color);
-    grid-template-columns: 1fr;
-    margin: 3px;
-    justify-content: right;
-}
-.employees img {
-    width: 150px;
-    height: auto;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    justify-content: right;
-    margin: auto;
-    border: 5px solid var(--secondary-color);
-}
+
 h3 {
     text-align: center;
     font-size: 25px;
@@ -345,12 +333,105 @@ input, select, textarea {
     text-align: center;
     color: white;
     font-size: 15px;
-    text-shadow: #47B3A7;
+    font-weight: 700;
 }
 button:hover {
-    background-color: green;
+    background-color: black;
 }
-
+.space {
+    border-bottom: 10px solid var(--accent1-color);
+    margin: 20px;
+}
 .bottom_contact {
+    display: flex;
+    justify-content: space-around;
+}
+.contact_info {
     display: grid;
+    background-color: var(--accent3-color);
+    padding: 20px;
+    grid-column: 1fr 1fr;
+    justify-content: left;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 5px white;
+    font-weight: 600;
+    border: 3px dashed var(--secondary-color);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.phone {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.address {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.email {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h5 {
+    font-family: Trocchi, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-decoration: double;
+    text-shadow: 2px 2px 2px white;
+}
+h6 {
+    font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.map {
+    border: 3px solid var(--secondary-color);
+    margin: 0;
+}
+.employees {
+    width: 450px;
+    grid-column: 1fr 1fr;
+    margin: 3px;
+    justify-content: center;
+    display: block;
+    border: 3px dashed var(--secondary-color);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--accent3-color);
+}
+.employees figcaption {
+    display: inline-flex;
+    text-indent: 5px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: top;
+    text-shadow: 2px 2px 5px white;
+    font-weight: 600;
+}
+.employees img {
+    width: 150px;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: auto;
+    border: 5px solid var(--secondary-color);
 }
