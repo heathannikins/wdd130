@@ -350,3 +350,7 @@ input, select, textarea {
 button:hover {
     background-color: green;
 }
+
+.bottom_contact {
+    display: grid;
+}
