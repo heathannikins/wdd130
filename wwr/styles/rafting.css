@@ -307,7 +307,6 @@ input, select, textarea {
     margin-top: 10px;
     font-size: 10px;
     display: flex;
-    flex: 200px 200px;
     flex-direction: row;
     text-align: center;
     vertical-align: bottom;
@@ -350,7 +349,6 @@ button:hover {
     display: grid;
     background-color: var(--accent3-color);
     padding: 20px;
-    grid-column: 1fr 1fr;
     justify-content: left;
     text-align: center;
     margin: 20px;
@@ -408,7 +406,6 @@ h6 {
 }
 .employees {
     width: 450px;
-    grid-column: 1fr 1fr;
     margin: 3px;
     justify-content: center;
     display: block;
