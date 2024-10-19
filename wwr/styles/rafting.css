@@ -326,13 +326,13 @@ input, select, textarea {
     text-align: center;
 }
 
-.fieldset_submit input {
+.fieldset_submit button {
     background-color: var(--secondary-color);
-    justify-content: center;
     text-align: center;
+    display: inline-block;
+    padding: 10px 80px;
     color: white;
     font-size: 15px;
-    font-weight: 700;
 }
 button:hover {
     background-color: black;
