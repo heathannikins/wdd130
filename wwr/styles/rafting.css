@@ -361,21 +361,7 @@ button:hover {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-.phone {
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
-.address {
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
-.email {
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
+
 h4 {
     font-family: 'Spicy Rice', 'Bradley Hand', sans-serif;
     font-size: 50px;
@@ -431,4 +417,112 @@ h6 {
     grid-row: 2/3;
     margin: auto;
     border: 5px solid var(--secondary-color);
+}
+
+.home_grid {
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr 10px 1fr;
+}
+
+.newsletter {
+    width: 450px;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.newsletter form {
+    width: 50px;
+    margin: 25px auto 15px auto;
+    padding: 5px;
+    border-radius: 2rem;
+    background-color: var(--primary-color);
+    display: grid;
+    grid-gap: 0px;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    justify-content: right;
+}
+
+.offering {
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 3px;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    vertical-align: middle;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1fr auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.offering img {
+    width: 400px;
+    justify-content: space-around;
+}
+
+.purpose{
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 3px;
+    grid-column: 5/6;
+    grid-row: 1/3;
+    vertical-align: middle;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1fr auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.purpose img {
+    width: 400px;
+    justify-content: center;
+}
+
+.book {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    border-top: 10px solid var(--accent1-color);
+    margin: 10px;
+    padding: 10px;
+    vertical-align: middle;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1fr auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.book img {
+    width: 250px;
+    justify-content: space-around;
+}
+.book button {
+    width: 150px;
+    height: 100px;
+}
+
+.space_vertical {
+    border-right: 5px solid var(--accent1-color);
+    border-left: 5px solid var(--accent1-color);
+    grid-row: 1/3;
 }
