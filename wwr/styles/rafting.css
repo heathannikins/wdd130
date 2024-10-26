@@ -551,13 +551,17 @@ h6 {
     align-items: center;
 }
 
-.book button {
+.book a {
     width: 300px;
-    height: 100px;
-    margin-top: 10px;
+    height: auto;
+    color: black;
+    padding: 25px;
+    text-decoration: none;
     margin-left: 30px;
     box-shadow: 5px 5px gray;
     justify-items: center;
+    vertical-align: middle;
+    align-items: center;
     font-family: Trocchi, Arial, sans-serif;
     background-color: var(--accent1-color);
 }
@@ -666,14 +670,21 @@ h6 {
     text-align: center;
 }
 
-.trip_contact button {
-    width: 150px;
-    height: 100px;
+.trip_contact a {
+    width: 125px;
+    height: auto;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 15px;
     box-shadow: 5px 5px gray;
     justify-items: center;
     font-family: Trocchi, Arial, sans-serif;
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    background-color: white;
 }
 
 table {
