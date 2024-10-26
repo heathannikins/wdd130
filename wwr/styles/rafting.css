@@ -551,16 +551,15 @@ h6 {
     align-items: center;
 }
 
-.book img {
-    width: 250px;
-    justify-content: space-around;
-}
-
 .book button {
-    width: 150px;
+    width: 300px;
     height: 100px;
-    background-color: var(--accent1-color);
+    margin-top: 10px;
+    margin-left: 30px;
     box-shadow: 5px 5px gray;
+    justify-items: center;
+    font-family: Trocchi, Arial, sans-serif;
+    background-color: var(--accent1-color);
 }
 
 .space_vertical {
